@@ -124,7 +124,7 @@ function updateImages(computer, player) {
 
 function resetGame() {
   const statusbox = document.querySelector("#status");
-  statusbox.className = "w-[620px] bg-black flex justify-center p-2";
+  statusbox.className = "sm:w-[620px] w-full mx-4 sm:text-3xl text-xl font-bold bg-black flex justify-center p-2";
   statusbox.textContent = "Choose your weapon!";
 
       const computerImage = document.querySelector("#computerImage")
